@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation=" "
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/campo_fecha_abono"
+        android:layout_width="293dp"
+        android:layout_height="53dp"
+        android:text="Fecha"
+        android:textSize="20sp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <EditText
+        android:id="@+id/campo_codigo_venta"
+        android:layout_width="293dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Codigo de venta"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="224dp" />
+
+    <EditText
+        android:id="@+id/campo_valor_abonado"
+        android:layout_width="293dp"
+        android:layout_height="63dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Valor abonado"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="359dp" />
+
+    <Button
+        android:id="@+id/registrar_abono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar abono"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="483dp" />
+
+    <Button
+        android:id="@+id/boton_inicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inicio"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="554dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="410dp"
+        android:layout_height="185dp"
+        app:srcCompat="@drawable/fondo_superior"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
