@@ -1,0 +1,43 @@
+<resources>
+    <!-- Idioma activity Inicio sesion -->
+    <string name="app_name">App Sale curtain</string>
+    <string name="Welcome_app">Welcome the App</string>
+    <string name="text_username">UserName</string>
+    <string name="hint_username">example@email.com</string>
+    <string name="text_password">Password</string>
+    <string name="hint_password">Your Password</string>
+    <string name="button_login">LOGIN</string>
+
+    <!-- Idioma activity Abono -->
+    <string name="text_registerpaid">REGISTER YOUR PAID</string>
+    <string name="text_salecode">Sale code:</string>
+    <string name="text_datepaid">Date:</string>
+    <string name="text_paidvalue">Paid value</string>
+    <string name="button_save">SAVE</string>
+    <string name="button_beginning">BEGINNING</string>
+
+    <!-- Idioma activity Ventas -->
+    <string name="text_salesrecord">SALES RECORD</string>
+    <string name="text_code">Code:</string>
+    <string name="text_datesale">Date:</string>
+    <string name="text_ccvenditor">CC Venditor:</string>
+    <string name="text_dataclient">DATA CLIENT:</string>
+    <string name="text_ccclient">CC Client:</string>
+    <string name="text_clientname">Client Name:</string>
+    <string name="text_address">Address:</string>
+    <string name="text_latitude">Latitude:</string>
+    <string name="text_length">Length:</string>
+    <string name="text_curtaindata">CURTAIN DATA</string>
+    <string name="text_curtaintype">Curtain Type:</string>
+    <string name="text_width">Width(m):</string>
+    <string name="text_high">High(m):</string>
+    <string name="text_area">Area:</string>
+    <string name="text_purchasedata">PURCHASE DATA</string>
+    <string name="text_curtainvalue">Curtain Value:</string>
+    <string name="text_paiddata">Paid:</string>
+    <string name="text_weeklyfeevalue">Weekly Fee Value:</string>
+    <string name="text_balance">Balance:</string>
+    <string name="button_savesale">SAVE</string>
+
+
+</resources>

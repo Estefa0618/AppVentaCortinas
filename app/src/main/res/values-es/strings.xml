@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">App venta cortina</string>
+    <string name="Welcome_app">Bienvenido a la aplicación</string>
+    <string name="text_username">Nombre usuario</string>
+    <string name="hint_username">ejemplo@correo.com</string>
+    <string name="text_password">Contraseña</string>
+    <string name="hint_password">Tu Contraseña</string>
+    <string name="button_login">INICIAR SESION</string>
+
+    <!-- Idioma activity Abono -->
+    <string name="text_registerpaid">REGISTRA TU VENTA</string>
+    <string name="text_salecode">Codigo venta:</string>
+    <string name="text_datepaid">Fecha:</string>
+    <string name="text_paidvalue">Valor abonado:</string>
+    <string name="button_save">GUARDAR</string>
+    <string name="button_beginning">INICIO</string>
+
+    <!-- Idioma activity Ventas -->
+    <string name="text_salesrecord">REGISTRO DE VENTAS</string>
+    <string name="text_code">Codigo:</string>
+    <string name="text_datesale">Fecha:</string>
+    <string name="text_ccvenditor">CC Vendedor:</string>
+    <string name="text_dataclient">DATOS CLIENTE:</string>
+    <string name="text_ccclient">CC Client:</string>
+    <string name="text_clientname">Nombre cliente:</string>
+    <string name="text_address">Direccion:</string>
+    <string name="text_latitude">Latitud:</string>
+    <string name="text_length">Longitud:</string>
+    <string name="text_curtaindata">DATOS CORTINA</string>
+    <string name="text_curtaintype">Tipo Cortina:</string>
+    <string name="text_width">Ancho(m):</string>
+    <string name="text_high">Alto(m):</string>
+    <string name="text_area">Area:</string>
+    <string name="text_purchasedata">DATOS COMPRA</string>
+    <string name="text_curtainvalue">Valor Cortina:</string>
+    <string name="text_paiddata">Abono:</string>
+    <string name="text_weeklyfeevalue">Valor Cuota Semanal:</string>
+    <string name="text_balance">Saldo:</string>
+    <string name="button_savesale">GUARDAR</string>
+</resources>

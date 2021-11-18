@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="22dp"
+    android:layout_marginStart="40dp"
+    android:orientation="vertical"
+    tools:context=".AbonosActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="402dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/abono" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="@string/text_registerpaid"
+        android:textColor="#303F9F"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="116dp"
+        android:layout_height="34dp"
+        android:text="@string/text_salecode"
+        android:textColor="#1976D2"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextTextCodigoDeVenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:text="@string/text_datepaid"
+        android:textColor="#1976D2"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextTextFechaAbono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:text="@string/text_paidvalue"
+        android:textColor="#1976D2"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextTextValorAbonado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonGuardarAbono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_save" />
+
+    <Button
+        android:id="@+id/buttonInicioAbono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_beginning" />
+
+</LinearLayout>
